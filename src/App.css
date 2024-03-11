@@ -2,3 +2,13 @@ body
 {
     background-color: #ebebeb;
 }
+
+.container
+{
+    display: flex;
+}
+
+.navBar
+{
+    background-color: red;
+}

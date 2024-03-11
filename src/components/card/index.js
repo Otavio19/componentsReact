@@ -10,8 +10,8 @@ function Card(props){
             <div className={ styles.cardText }>
                 <p className="titleCard">{ props.title }</p>
                 <div className={ styles.btnBox}>
-                    <Button text='Comprar' />
-                    <Button text={ <FaCartShopping /> } />
+                    <Button text={props.textBtn } />
+                    <Button text={ props.iconBtn } />
                 </div>
             </div>
         </div>
